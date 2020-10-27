@@ -1,4 +1,5 @@
 require 'bundler'
+require 'pry'
 Bundler.require
 require 'yaml'
 CREATED_FILES = Dir.glob(File.join(File.dirname(__FILE__), '..', 'lib', '*.rb'))
