@@ -1,5 +1,5 @@
 require_relative 'spec_helper'
-
+require 'pry'
 describe "working with hashes" do
   describe "instantiating" do
     describe "my_hash_creator" do
